@@ -1,0 +1,115 @@
+* Austin to Muleshoe
+
+start Dijkstra
+end Dijkstra, nodes = 71
+Road Distance austin to muleshoe = 452
+Route to muleshoe = (austin lampasas brownwood abilene roscoe snyder lubbock muleshoe)
+
+start Prim
+end Prim, edgecost austin to temple = 62
+Route Austin to Muleshoe = (austin lampasas brownwood abilene roscoe big-spring lamesa lubbock muleshoe)
+pathcost austin to muleshoe = 501
+
+start A* dist
+end A*, nodes = 11
+Road Distance austin to muleshoe = 452
+Route to muleshoe = (austin lampasas brownwood abilene roscoe snyder lubbock muleshoe)
+
+start A* halfass
+end A*, nodes = 40
+Road Distance austin to muleshoe = 452
+Route to muleshoe = (austin lampasas brownwood abilene roscoe snyder lubbock muleshoe)
+
+start A* zip
+end A*, nodes = 65
+Road Distance austin to muleshoe = 452
+Route to muleshoe = (austin lampasas brownwood abilene roscoe snyder lubbock muleshoe)
+
+start A* randombs
+end A*, nodes = 65
+Road Distance austin to muleshoe = 452
+Route to muleshoe = (austin lampasas brownwood abilene roscoe snyder lubbock muleshoe)
+
+start A* randomlies
+end A*, nodes = 41
+Road Distance austin to muleshoe = 805
+Route to muleshoe = (austin junction sonora van-horn pecos odessa midland lamesa lubbock muleshoe)
+
+**********************************
+
+* Laredo to Haskell
+
+start Dijkstra
+end Dijkstra, nodes = 67
+Road Distance laredo to haskell = 482
+Route to haskell = (laredo eagle-pass del-rio sonora san-angelo abilene haskell)
+
+
+
+start A* dist
+end A*, nodes = 14
+Road Distance laredo to haskell = 482
+Route to haskell = (laredo eagle-pass del-rio sonora san-angelo abilene haskell)
+
+
+start A* halfass
+end A*, nodes = 27
+Road Distance laredo to haskell = 482
+Route to haskell = (laredo eagle-pass del-rio sonora san-angelo abilene haskell)
+
+start A* zip
+end A*, nodes = 47
+Road Distance laredo to haskell = 482
+Route to haskell = (laredo eagle-pass del-rio sonora san-angelo abilene haskell)
+
+start A* randombs
+end A*, nodes = 47
+Road Distance laredo to haskell = 482
+Route to haskell = (laredo eagle-pass del-rio sonora san-angelo abilene haskell)
+
+start A* randomlies
+end A*, nodes = 24
+Road Distance laredo to haskell = 880
+Route to haskell = (laredo alice corpus-christi victoria houston columbus austin temple waco hillsboro fort-worth wichita-falls haskell)
+
+
+**********************************
+
+* Dumas to Corsicana
+
+start Dijkstra
+end Dijkstra, nodes = 68
+Road Distance dumas to corsicana = 467
+Route to corsicana = (dumas amarillo childress vernon wichita-falls fort-worth dallas corsicana)
+
+
+
+start A* dist
+end A*, nodes = 10
+Road Distance dumas to corsicana = 467
+Route to corsicana = (dumas amarillo childress vernon wichita-falls fort-worth dallas corsicana)
+
+start A* halfass
+end A*, nodes = 25
+Road Distance dumas to corsicana = 467
+Route to corsicana = (dumas amarillo childress vernon wichita-falls fort-worth dallas corsicana)
+
+start A* zip
+end A*, nodes = 34
+Road Distance dumas to corsicana = 467
+Route to corsicana = (dumas amarillo childress vernon wichita-falls fort-worth dallas corsicana)
+
+start A* randombs
+end A*, nodes = 34
+Road Distance dumas to corsicana = 467
+Route to corsicana = (dumas amarillo childress vernon wichita-falls fort-worth dallas corsicana)
+
+start A* randomlies
+end A*, nodes = 32
+Road Distance dumas to corsicana = 733
+Route to corsicana = (dumas amarillo hereford muleshoe lubbock lamesa big-spring san-angelo abilene fort-worth dallas corsicana)
+
+**********************************
+
+In all cases, Dijkstra has the most nodes visited, and A* dist heuristic method has the least while they
+have the same distance. Prim method has less nodes visited than Dijkstra but it has a larger distance.
